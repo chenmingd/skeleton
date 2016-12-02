@@ -1,0 +1,1 @@
+thrift file dir
