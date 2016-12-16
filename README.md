@@ -1,4 +1,5 @@
 脚手架使用说用：
+
 脚手架用于一键新建生成一个符合有赞工程规范的工程结构； （封装了我们的三方库，二方库等）
 git clone git@gitlab.qima-inc.com:soa/skeleton.git
 cd skeleton
