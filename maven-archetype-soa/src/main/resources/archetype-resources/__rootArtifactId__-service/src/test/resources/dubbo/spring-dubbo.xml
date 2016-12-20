@@ -7,6 +7,6 @@
     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
 	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
-    <dubbo:reference id="userServiceRef" interface="com.qsd.test.server.service.UserService" />
+    <!--<dubbo:reference id="userServiceRef" interface="com.qsd.test.server.service.UserService" />-->
 
 </beans>

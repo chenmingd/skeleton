@@ -26,6 +26,5 @@
 
     <import resource="classpath:META-INF/spring/spring-dubbo-entry.xml"/>
     <import resource="classpath:persistence-test.xml"/>
-    <import resource="classpath:spring-dubbo.xml"/>
 
 </beans>

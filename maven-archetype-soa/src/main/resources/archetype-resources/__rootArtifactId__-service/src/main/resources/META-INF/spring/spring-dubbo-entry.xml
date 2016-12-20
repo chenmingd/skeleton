@@ -34,7 +34,7 @@
     </bean>
 
     <dubbo:application name="${dubbo.name}"/>
-    <dubbo:protocol name="${dubbo.registry.protocol}" port="${dubbo.dubbo.port}"/>
+    <dubbo:protocol name="${dubbo.protocol}" port="${dubbo.port}" />
     <dubbo:registry address="${dubbo.registry.address}"/>
 
     <import resource="classpath*:dubbo/dubbo-*.xml"/>

@@ -6,7 +6,7 @@ cd skeleton
 mvn clean install
      导入IDE，总共包含两个项目：com.youzan.skeleton和auto-generate-code，com.youzan.skeleton为maven骨架，auto-generate-code用来自动生成代码（主要生成是DO，BO，Mapper，xml，Transfer）。
      在Terminal输入命令，创建项目：
-mvn archetype:generate -DgroupId=com.youzan.test -DartifactId=test -Dversion=1.0.0 -DarchetypeGroupId=com.youzan -DarchetypeArtifactId=com.youzan.skeleton -DarchetypeVersion=1.0.0 -DinteractiveMode=false
+mvn archetype:generate -DgroupId=com.qsd.test -DartifactId=test -Dversion=1.0.0-SNAPSHOT -DarchetypeGroupId=com.qsd.maven.archetypes -DarchetypeArtifactId=maven-archetype-soa -DarchetypeVersion=1.0.0-SNAPSHOT -DinteractiveMode=false
      红色标记为要创建项目的groupId，artifactId，version
       archetypeGroupId    ：原型GroupId，默认：com.youzan
      archetypeArtifactId   ：原型ArtifactId，默认：com.youzan.skeleton
