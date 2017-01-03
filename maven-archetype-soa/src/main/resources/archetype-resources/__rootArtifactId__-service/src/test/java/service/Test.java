@@ -1,4 +1,4 @@
-package ${package}.${rootArtifactId}.service;
+package ${package}.service;
 
 /**
  * app

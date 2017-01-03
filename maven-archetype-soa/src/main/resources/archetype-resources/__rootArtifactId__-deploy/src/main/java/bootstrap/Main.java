@@ -1,4 +1,4 @@
-package ${package}.${rootArtifactId}.bootstrap;
+package ${package}.bootstrap;
 
 /**
  */
