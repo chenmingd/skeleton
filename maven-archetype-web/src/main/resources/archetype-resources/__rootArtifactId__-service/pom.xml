@@ -16,16 +16,7 @@
 
     <name>${rootArtifactId}-service</name>
 
-    <properties>
-        <trade-rpc.version>1.0.2-SNAPSHOT</trade-rpc.version>
-    </properties>
-
     <dependencies>
-        <dependency>
-            <groupId>${groupId}</groupId>
-            <artifactId>${rootArtifactId}-api</artifactId>
-        </dependency>
-
         <dependency>
             <groupId>${groupId}</groupId>
             <artifactId>${rootArtifactId}-dal</artifactId>

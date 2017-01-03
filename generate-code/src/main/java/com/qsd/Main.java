@@ -22,6 +22,6 @@ public class Main {
         gc.generate();
         System.out.println("代码已生成！");
         System.out.println("DO和Mapper在《" + ConfigUtils.getConfig("artifactId") + "-dal》子项目中!");
-        System.out.println("BO和Transfer在《" + ConfigUtils.getConfig("artifactId") + "-service》子项目中!");
+        System.out.println("BO和Transfer在《" + ConfigUtils.getConfig("artifactId") + "-web》子项目中!");
     }
 }

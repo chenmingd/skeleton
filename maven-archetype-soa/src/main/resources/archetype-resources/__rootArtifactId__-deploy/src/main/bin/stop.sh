@@ -14,7 +14,7 @@ BASE_HOME="`pwd`"
 PROJECT_NAME=`basename $BASE_HOME`
 PROJECT_HOME="/data/project/${PROJECT_NAME}"
 TMP_HOME="$PROJECT_HOME/tmp"
-PIDFILE="$TMP_HOME/service.pid"
+PIDFILE="$TMP_HOME/web.pid"
 if [ ! -f "$PIDFILE" ];then
     echo "PIDFILE:$PIDFILE not found. exists"
     exit

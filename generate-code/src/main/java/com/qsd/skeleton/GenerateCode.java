@@ -99,7 +99,7 @@ public class GenerateCode {
         String packageName = table.getBoPackage();
         packageName = packageName.replace(".", "/");
         String filePath = System.getProperty("user.dir") + "/" + ConfigUtils.getConfig("artifactId")
-                + "/" + ConfigUtils.getConfig("artifactId") + "-service"
+                + "/" + ConfigUtils.getConfig("artifactId") + "-web"
                 + "/src/main/java/" + packageName;
         CodeFactory.dataSourceOut(configuration, "bo.ftl", table, table.getClassName_Java() + "BO.java", filePath);
     }
@@ -113,7 +113,7 @@ public class GenerateCode {
         String packageName = table.getTransferPackage();
         packageName = packageName.replace(".", "/");
         String filePath = System.getProperty("user.dir") + "/" + ConfigUtils.getConfig("artifactId")
-                + "/" + ConfigUtils.getConfig("artifactId") + "-service"
+                + "/" + ConfigUtils.getConfig("artifactId") + "-web"
                 + "/src/main/java/" + packageName;
         CodeFactory.dataSourceOut(configuration, "transfer.ftl", table, table.getClassName_Java() + "Transfer.java", filePath);
     }

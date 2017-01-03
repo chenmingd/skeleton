@@ -7,6 +7,6 @@
     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
 	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
-    <!--<dubbo:service interface="com.qsd.demo.service.UserService" class="com.qsd.demo.service.impl.UserServiceImpl"/>-->
+    <!--<dubbo:web interface="com.qsd.demo.web.UserService" class="com.qsd.demo.web.impl.UserServiceImpl"/>-->
 
 </beans>

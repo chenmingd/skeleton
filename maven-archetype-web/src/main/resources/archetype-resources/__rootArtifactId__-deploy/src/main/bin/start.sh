@@ -16,8 +16,8 @@ LOG_HOME="/data/logs/$PROJECT_NAME"
 CORE_HOME="/data/coredump/$PROJECT_NAME"
 TMP_HOME="$PROJECT_HOME/tmp"
 CONF_HOME="$PROJECT_HOME/conf"
-PIDFILE="$TMP_HOME/service.pid"
-STDOUT_LOG="$LOG_HOME/service.log"
+PIDFILE="$TMP_HOME/web.pid"
+STDOUT_LOG="$LOG_HOME/web.log"
 
 export JAVA_HOME="/opt/java"
 export LD_LIBRARY_PATH=$PROJECT_HOME/lib:$LD_LIBRARY_PATH
@@ -84,10 +84,10 @@ fi
 if [ -f "$PIDFILE" ]; then
     PID=`cat $PIDFILE`
     if ps auxfwww | grep -w $PID | grep -v grep >/dev/null 2>&1;then
-        echo "service is running. Please run stop.sh first,then start.sh. exists"
+        echo "web is running. Please run stop.sh first,then start.sh. exists"
         exit 1
     else
-       echo "found service.pid, but $PROJECT_NAME isn't runnnging, will start it!"
+       echo "found web.pid, but $PROJECT_NAME isn't runnnging, will start it!"
        rm -f $PIDFILE
     fi
 fi
